@@ -1,0 +1,24 @@
+{
+  "name": "angularcv",
+  "main": "app.js",
+  "version": "0.0.0",
+  "authors": [
+    "jessie <jessie@apollo.com.ph>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.2.14"
+  },
+  "dependencies": {
+    "angularfire": "~1.1.1",
+    "bootstrap": "~3.3.5"
+  }
+}

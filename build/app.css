@@ -1,0 +1,26 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.loaderWrap {
+  text-align: center;
+}
+.loaderWrap img {
+  width: 25px;
+  height: auto;
+}
+.containerWrap {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.avatarWrap {
+  width: 100%;
+  height: auto;
+}
+.avatarWrap img.avatar {
+  width: 100%;
+  height: auto;
+}

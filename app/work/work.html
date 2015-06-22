@@ -1,0 +1,12 @@
+<div class="col-sm-12">
+	<ul>
+		<li ng-repeat="company in companies">
+			{{company.company_name}}
+		</li>
+	</ul>
+</div>
+<div class="col-sm-12" ng-if="contentIsLoading">
+  <div class="loaderWrap">
+    <img src="/img/loader.GIF" alt="loading"/>
+  </div>
+</div>

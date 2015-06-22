@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>angularcv</title>    
+    <link href="lib.css" rel="stylesheet">
+    <link href="app.css" rel="stylesheet">
+
+    <base href="/">
+  </head>
+  <body ng-app="angularcv">
+    <div class="row-fluid">
+        <div class="col-sm-3">
+            <avatar></avatar>
+            <ul>
+              <li ui-sref-active="active">
+                <a ui-sref="about">About</a>
+              </li>
+              <li ui-sref-active="active">
+                <a ui-sref="skills">Skills</a>
+              </li>
+              <li ui-sref-active="active">
+                <a ui-sref="work">Work experience</a>
+              </li>
+              <li ui-sref-active="active">
+                <a ui-sref="education">Education</a>
+              </li>
+              <li ui-sref-active="active">
+                <a ui-sref="interests">Interests</a>
+              </li>
+            </ul>
+        </div>
+        <div class="col-sm-9">
+          <div class="row containerWrap">
+            <div ui-view="" class="theview"></div>
+          </div>
+        </div>
+    </div>
+    <script src="/lib.js"></script>
+    <script src="/templates.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

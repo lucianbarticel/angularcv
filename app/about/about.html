@@ -1,0 +1,11 @@
+<div class="col-sm-3">
+	<div class="avatarWrap">
+		<img ng-src="{{mydata.avatar}}" alt="avatar" ng-hide="contentIsLoading" class="avatar"/>
+	</div>
+</div>
+<div class="col-sm-9" ng-bind-html="mydata.content"></div>
+<div class="col-sm-12" ng-if="contentIsLoading">
+  <div class="loaderWrap">
+    <img src="/img/loader.GIF" alt="loading"/>
+  </div>
+</div>
